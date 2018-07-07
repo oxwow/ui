@@ -10,49 +10,145 @@
 </head>
 <body>
     <div class="container">
-        <div class="point">
-            <div class="point-header">
-                <div class="title">
-                    <h2>请设置表单名称</h2>
+        <div class="cl">
+            <div class="point mar-20-auto ">
+                <div class="point-header">
+                    <div class="title">
+                        <h2>请设置表单名称</h2>
+                    </div>
+                    <div class="close">
+                        <span class="iconfont icon-close1"></span>
+                    </div>
                 </div>
-                <div class="close">
-                    <span class="iconfont icon-round_close_fill_light"></span>
+                <div class="point-body">
+                    <div class="form-group">
+                        <label for="inputname">请设置表单名称</label>
+                        <input type="text" class="form-control" id="inputname" placeholder="请输入表单名称">
+                        <small id="inputnamehelp" class="form-text text-muted">设置表单名称将显示在输入框之上。</small>
+                    </div>
                 </div>
-            </div>
-            <div class="point-body">
-                <div class="form-group">
-                    <label for="inputname">请设置表单名称</label>
-                    <input type="text" class="form-control" id="inputname" placeholder="请输入表单名称">
-                    <small id="inputnamehelp" class="form-text text-muted">设置表单名称将显示在输入框之上。</small>
-                </div>
-            </div>
-            <div class="point-footer">
-                <div class="text-right">
-                    <div role="button" class="btn btn-info">确定</div>
-                    <div role="button" class="btn btn-secondary">取消</div>
+                <div class="point-footer">
+                    <div class="text-right">
+                        <div role="button" class="btn btn-info">确定</div>
+                        <div role="button" class="btn btn-secondary">取消</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="point">
-            <div class="point-header">
-                <div class="title">
-                    <h2>设置多行文本框名称</h2>
+        <div class="cl">
+            <div class="point mar-20-auto ">
+                <div class="point-header">
+                    <div class="title">
+                        <h2>设置多行文本框名称</h2>
+                    </div>
+                    <div class="close">
+                        <span class="iconfont icon-close1"></span>
+                    </div>
                 </div>
-                <div class="close">
-                    <span class="iconfont icon-round_close_fill_light"></span>
+                <div class="point-body">
+                    <div class="form-group">
+                        <label for="textareaname">请设置多行文本框的名称</label>
+                        <input type="text" class="form-control" id="textareaname" placeholder="请输入多行文本框的名称">
+                        <small id="textareanamehelp" class="form-text text-muted">设置的名称将显示在文本框之上。</small>
+                    </div>
+                </div>
+                <div class="point-footer">
+                    <div class="text-right">
+                        <div role="button" class="btn btn-info">确定</div>
+                        <div role="button" class="btn btn-secondary">取消</div>
+                    </div>
                 </div>
             </div>
-            <div class="point-body">
-                <div class="form-group">
-                    <label for="textareaname">请设置多行文本框的名称</label>
-                    <input type="text" class="form-control" id="textareaname" placeholder="请输入多行文本框的名称">
-                    <small id="textareanamehelp" class="form-text text-muted">设置的名称将显示在文本框之上。</small>
+        </div>
+        <div class="cl">
+            <div class="point mar-20-auto ">
+                <div class="point-header">
+                    <div class="title">
+                        <h2>设置选项名称</h2>
+                    </div>
+                    <div class="close">
+                        <span class="iconfont icon-close1"></span>
+                    </div>
+                </div>
+                <div class="point-body">
+                    <div class="form-group mar-b-20">
+                        <label for="radioname">请设置选项的名称</label>
+                        <input type="text" class="form-control" id="radioname" placeholder="请输入选项的名称">
+                        <small id="radionamehelp" class="form-text text-muted">设置的名称将显示在单选框之上。</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="radioname">请设置选项信息</label>
+                        <input type="text" class="radiovalue form-control mar-b-10" name="radiovalue[]" value="" placeholder="选项1">
+                        <input type="text" class="radiovalue form-control mar-b-10" name="radiovalue[]" value="" placeholder="选项2">
+                    </div>
+                    <div class="radio-add-btn text-center">
+                        <div role="button" class="btn btn-info"><span class="iconfont icon-add2"></span>添加一项</div>
+                    </div>
+                </div>
+                <div class="point-footer">
+                    <div class="text-right">
+                        <div role="button" class="btn btn-info">确定</div>
+                        <div role="button" class="btn btn-secondary">取消</div>
+                    </div>
                 </div>
             </div>
-            <div class="point-footer">
-                <div class="text-right">
-                    <div role="button" class="btn btn-info">确定</div>
-                    <div role="button" class="btn btn-secondary">取消</div>
+        </div>
+        <div class="cl">
+            <div class="point mar-20-auto ">
+                <div class="point-header">
+                    <div class="title">
+                        <h2>设置下拉选项名称</h2>
+                    </div>
+                    <div class="close">
+                        <span class="iconfont icon-close1"></span>
+                    </div>
+                </div>
+                <div class="point-body">
+                    <div class="form-group mar-b-20">
+                        <label for="selectname">请设置下拉选项的名称</label>
+                        <input type="text" class="form-control" id="selectname" placeholder="请输入下拉选项的名称">
+                        <small id="selectnamehelp" class="form-text text-muted">设置的名称将显示在下拉框之上。</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="radioname">请设置下拉选项信息</label>
+                        <input type="text" class="radiovalue form-control mar-b-10" name="select[]" value="" placeholder="选项1">
+                        <input type="text" class="radiovalue form-control mar-b-10" name="select[]" value="" placeholder="选项2">
+                        <input type="text" class="radiovalue form-control mar-b-10" name="select[]" value="" placeholder="选项3">
+                    </div>
+                    <div class="radio-add-btn text-center">
+                        <div role="button" class="btn btn-info"><span class="iconfont icon-add2"></span>添加一项</div>
+                    </div>
+                </div>
+                <div class="point-footer">
+                    <div class="text-right">
+                        <div role="button" class="btn btn-info">确定</div>
+                        <div role="button" class="btn btn-secondary">取消</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cl">
+            <div class="point mar-20-auto ">
+                <div class="point-header">
+                    <div class="title">
+                        <h2>设置上传控件名称</h2>
+                    </div>
+                    <div class="close">
+                        <span class="iconfont icon-close1"></span>
+                    </div>
+                </div>
+                <div class="point-body">
+                    <div class="form-group">
+                        <label for="imguploadname">请设置上传控件的名称</label>
+                        <input type="text" class="form-control" id="imguploadname" placeholder="请输入上传控件的名称">
+                        <small id="imguploadnamehelp" class="form-text text-muted">设置的名称将显示在上传控件之上。</small>
+                    </div>
+                </div>
+                <div class="point-footer">
+                    <div class="text-right">
+                        <div role="button" class="btn btn-info">确定</div>
+                        <div role="button" class="btn btn-secondary">取消</div>
+                    </div>
                 </div>
             </div>
         </div>

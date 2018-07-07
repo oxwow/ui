@@ -57,3 +57,39 @@ small,
 .text-center {
   text-align: center;
 }
+.mar-auto {
+  margin: 0 auto;
+}
+.mar-20-auto {
+  margin: 20px auto;
+}
+.mar-b-5 {
+  margin-bottom: 5px;
+}
+.mar-b-10 {
+  margin-bottom: 10px;
+}
+.mar-b-15 {
+  margin-bottom: 15px;
+}
+.mar-b-20 {
+  margin-bottom: 20px;
+}
+.pad-auto {
+  padding: 0 auto;
+}
+.pad-20-auto {
+  padding: 20px auto;
+}
+.pad-b-5 {
+  padding-bottom: 5px;
+}
+.pad-b-10 {
+  padding-bottom: 10px;
+}
+.pad-b-15 {
+  padding-bottom: 15px;
+}
+.pad-b-20 {
+  padding-bottom: 20px;
+}
