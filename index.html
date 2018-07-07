@@ -3,11 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <title>oxwow.ui</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="compose/css/ox.wow.ui.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_737979_iw77425mmgf.css">
 </head>
 <body>
-
-
+    <div class="container">
+        <div class="point">
+            <div class="point-header">
+                <div class="title">
+                    <h2>请设置表单名称</h2>
+                </div>
+                <div class="close">
+                    <span class="iconfont icon-round_close_fill_light"></span>
+                </div>
+            </div>
+            <div class="point-body">
+                <div class="form-group">
+                    <label for="inputname">请设置表单名称</label>
+                    <input type="text" class="form-control" id="inputname" placeholder="请输入表单名称">
+                    <small id="inputnamehelp" class="form-text text-muted">设置表单名称将显示在输入框之上。</small>
+                </div>
+            </div>
+            <div class="point-footer">
+                <div class="text-right">
+                    <div role="button" class="btn btn-info">确定</div>
+                    <div role="button" class="btn btn-secondary">取消</div>
+                </div>
+            </div>
+        </div>
+        <div class="point">
+            <div class="point-header">
+                <div class="title">
+                    <h2>设置多行文本框名称</h2>
+                </div>
+                <div class="close">
+                    <span class="iconfont icon-round_close_fill_light"></span>
+                </div>
+            </div>
+            <div class="point-body">
+                <div class="form-group">
+                    <label for="textareaname">请设置多行文本框的名称</label>
+                    <input type="text" class="form-control" id="textareaname" placeholder="请输入多行文本框的名称">
+                    <small id="textareanamehelp" class="form-text text-muted">设置的名称将显示在文本框之上。</small>
+                </div>
+            </div>
+            <div class="point-footer">
+                <div class="text-right">
+                    <div role="button" class="btn btn-info">确定</div>
+                    <div role="button" class="btn btn-secondary">取消</div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="compose/js/ox.wow.ui.js"></script>
 </body>
